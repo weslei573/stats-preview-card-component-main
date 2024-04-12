@@ -23,7 +23,6 @@ body{
 .box{
     background-color: var(--card);
     display: flex;
-    justify-content: space-between;
     color: var(--heading);
     width: 77%;
     height: 56%;
