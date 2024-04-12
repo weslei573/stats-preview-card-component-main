@@ -11,12 +11,6 @@
     --headings: hsla(0, 0%, 100%, 0.6);
 }
 
-html{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 body{
     background-color: var(--main);
     display: flex;
