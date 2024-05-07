@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1440px;
+    width: 100%;
     height: 100vh;
 }
 
@@ -90,7 +90,7 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-.foto .image img {
+.foto .image {
     width: 100%;
     height: 100%;
     border-top-right-radius: 10px;
@@ -98,4 +98,9 @@ body {
     mix-blend-mode: multiply;
     opacity: 80%;
     object-fit: fill;
+}
+
+.foto .image img{
+    width: 100%;
+    height: 100%;
 }
